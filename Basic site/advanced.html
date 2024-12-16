@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Website Template</title>
+    <link rel="stylesheet" href="advanced-style.css">
+</head>
+<body>
+    <!-- Header Section with Hero Image -->
+    <header>
+        <div class="hero">
+            <h1>Welcome to Our Website</h1>
+            <p>Your tagline goes here</p>
+            <a href="#services" class="cta-btn">Explore Services</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- About Section with Image -->
+        <section id="about" class="content-section">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <img src="_c62909c2-eb99-46a8-8d99-f7d39ab1c103.jpeg" alt="About Us Image">
+                <p>We are a company dedicated to providing top-quality services to our clients. Learn more about our mission and values.</p>
+            </div>
+        </section>
+        
+        <!-- Services Section with Image Grid -->
+        <section id="services" class="content-section">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <img src="_d890061d-94fa-4d38-820a-3832adf37603.jpeg" alt="Service 1">
+                    <h3>Service One</h3>
+                    <p>Short description of service one.</p>
+                </div>
+                <div class="service-item">
+                    <img src="_e60529a5-72cb-40ba-85be-25efed5f8bf1.jpeg" alt="Service 2">
+                    <h3>Service Two</h3>
+                    <p>Short description of service two.</p>
+                </div>
+                <div class="service-item">
+                    <img src="book thumbnail.jpg" alt="Service 3">
+                    <h3>Service Three</h3>
+                    <p>Short description of service three.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Form Section -->
+        <section id="contact" class="content-section">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+        <p><a href="https://www.example.com/privacy-policy">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
